@@ -1,0 +1,18 @@
+.btn {
+   background: $mainPurple;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.4rem;
+	border-radius: 3px;
+	box-shadow: 0 0 2px solid rgba(0, 0, 0, 0.28);
+	border: 1px solid $mainPurple;
+	
+	&:hover {
+		background: #7501a8;
+	}
+	
+	&--ghost {
+		background: none;
+	}
+}

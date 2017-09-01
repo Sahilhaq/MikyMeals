@@ -1,0 +1,35 @@
+.large-hero {
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.3)) , url('/assets/images/large-hero.jpg') top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+	
+	&__text-content {
+		background: rgba(0, 0, 0, 0.28);
+		border-radius: 5px;
+		position: absolute;
+		top: 50%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		font-size: 2rem;
+		box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+		border-left: 2px solid #fff;
+		border-right: 2px solid #fff;
+		padding: 0 20px;
+		margin: 0 5px;
+		
+		.small {
+			font-size: 2.8rem;
+		}
+	}
+	
+	&__btn-container {
+		position: absolute;
+		margin-top: 30px;
+		& > a {
+			margin-right: 20px;
+		}
+	}
+}

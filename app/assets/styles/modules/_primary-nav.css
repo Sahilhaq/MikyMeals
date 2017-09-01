@@ -1,0 +1,32 @@
+
+.primary-nav {
+    float: right;
+	
+	ul {
+		list-style: none;
+		padding: 15px 0;
+	}
+	
+	li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	
+	&__nav-link {
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.3rem;
+		padding: 5px 8px;
+		border: 2px solid transparent;
+		transition: all .3s;
+		font-weight: 300;
+		border-radius: 5px;
+		
+		&:hover {
+			border-bottom: 1px solid $mainPurple;
+			border-top: 1px solid $mainPurple;
+			border-right: 2px solid #fff;
+			border-left: 2px solid #fff;
+		}
+	}
+}

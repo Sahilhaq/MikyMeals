@@ -1,0 +1,52 @@
+.site-header {
+	&__pre-header {
+		background: #333;
+		padding: .45rem 0;
+		text-align: center;
+		
+		a {
+			text-decoration: none;
+			color: #fff;
+			font-size: .84rem;
+			padding: .45rem 20px;
+			border-right: 1px solid #938080;
+			
+			&:hover {
+				background: #414040;
+			}
+		}
+	}
+	
+	&__navbar {
+		position: absolute;
+		background: transparent;
+		width: 100%;
+		height: auto;
+		box-shadow: 0 0 2px transparent;
+	}
+	
+	&__logo {
+		float: left;
+		margin-top: 10px; 
+		padding: 10px 10px;
+		border-top: 1px solid $mainPurple;
+		border-bottom: 1px solid $mainPurple;
+		border-left: 2px solid #fff;
+		border-right: 2px solid #fff;
+		border-radius: 5px;
+		
+		.logo {
+			text-decoration: none;
+			font-size: 2rem;
+			color: #fff;
+			font-weight: 300;
+			
+			span {
+				background: $mainPurple;
+				color: #fff;
+				padding: 0 3px;
+				border-radius: 2px;
+			}
+		}
+	}
+} 
