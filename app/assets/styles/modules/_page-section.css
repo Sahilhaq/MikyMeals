@@ -16,5 +16,6 @@
     
 	&--shady {
 		background: #dddddd;
+		padding-top: 35px;
 	}
 }
