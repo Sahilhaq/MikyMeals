@@ -1,0 +1,15 @@
+.features {
+	margin-top: 25px;
+	text-align: center;
+	
+	&__title {
+		font-size: 2rem;
+		margin-top: 15px;
+	}
+	
+	&__description {
+		margin-top: 30px;
+		font-size: 1.1rem;
+		line-height: 1.55;
+	}
+}

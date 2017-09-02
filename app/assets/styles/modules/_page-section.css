@@ -14,4 +14,7 @@
         background: $mainBlue;
     }
     
+	&--shady {
+		background: #dddddd;
+	}
 }

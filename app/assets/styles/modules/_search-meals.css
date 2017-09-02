@@ -1,0 +1,48 @@
+.search-meals {
+		
+	&__search { 
+		position: relative;
+		margin-bottom: 30px;
+	
+		input {
+			text-indent: 30px;
+			padding: 6px 10px;
+			border: 1px solid rgba(92, 90, 90, 0.37);
+			color: #797979;
+		}
+		
+		.search-icon {
+			position: absolute;
+			top: 9px;
+			left: 14px;
+			color: rgba(70, 70, 70, 0.6);
+			cursor: pointer;
+		}
+	}
+	
+	&__title {
+		
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	li {
+		margin-top: 6px; 
+	}
+	
+	a {
+		text-decoration: none;
+		color: rgba(65, 65, 65, 0.67);
+		
+		&:hover {
+			color: rgba(52, 52, 52, 0.79);
+		}
+	}
+	
+	.icon-more {
+		padding-right: 6px;
+	}
+	
+}

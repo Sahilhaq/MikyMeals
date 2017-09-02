@@ -13,3 +13,6 @@
 @import './modules/_row';  
 @import './modules/_site-footer';
 @import './modules/_icons';
+@import './modules/_features';
+@import './modules/_search-meals';
+@import './modules/_showcase-meals'
