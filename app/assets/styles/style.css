@@ -15,4 +15,6 @@
 @import './modules/_icons';
 @import './modules/_features';
 @import './modules/_search-meals';
-@import './modules/_showcase-meals'
+@import './modules/_showcase-meals';
+@import './modules/_testimonials';
+@import './modules/_live-chat';

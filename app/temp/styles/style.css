@@ -609,6 +609,9 @@ body {
 	-webkit-box-shadow: 0 0 2px solid rgba(0, 0, 0, 0.28);
 	        box-shadow: 0 0 2px solid rgba(0, 0, 0, 0.28);
 	border: 1px solid #8810dd;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	display: inline-block;
 }
 
 .btn:hover {
@@ -617,6 +620,13 @@ body {
 
 .btn--ghost {
 		background: none;
+	}
+
+.btn--footer {
+		margin-left: 40px;
+		padding: 6px;
+		color: #e5e5e5;
+		font-size: 1.3rem;
 	}
 
 .page-section {
@@ -642,6 +652,20 @@ body {
 .page-section--shady {
 		background: #dddddd;
 		padding-top: 35px;
+	}
+
+.page-section--testimonials {
+		position: relative;
+		border-top: 3px solid #8810dd;
+	}
+
+.page-section--testimonials .map {
+			width: 100%;
+			height: 500px;
+		}
+
+.page-section--no-padding {
+		padding: 0;
 	}
 
 .headline {
@@ -690,6 +714,11 @@ body {
             width:  33.33%;   
         }
 		 
+		 .row__medium-6 {
+			 float: left;
+			 width: 50%;
+		 }
+		 
         .row__medium-8 {
             float: left;
             width: 66.66%;
@@ -725,8 +754,38 @@ body {
         }
 
 .site-footer {
-    
+   background: #121112;
+	width: 100%;
+	height: 50px;
+	color: #bebaba;
 }
+
+.site-footer__content {
+		text-align: center;
+	}
+
+.site-footer__content p {
+			padding-top: 8px;
+			margin: 0;
+		}
+
+.site-footer__content btn {
+			float: left;
+		}
+
+.site-footer__social-logo {
+		float: right;
+	}
+
+.site-footer__social-logo i {
+			color: #bebaba;
+			font-size: 1.4rem;
+			margin-right: 10px;
+		}
+
+.site-footer__social-logo i:hover {
+				color: #898989;
+			}
 
 .icons {
 	font-size: 1rem;
@@ -872,3 +931,121 @@ body {
 				font-size: .90rem;
 				padding-left: 5px;
 			}
+
+.testimonials {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.72);
+}
+
+.testimonials__testimonial { 
+		background: #fff;
+		-webkit-box-shadow: 0 0 3px rgba(206, 0, 255, 0.82);
+		        box-shadow: 0 0 3px rgba(206, 0, 255, 0.82);
+		margin: 20px 50px;
+		padding: 20px;
+		padding-top: 10px;
+		height: 140px;
+		color: #767575;
+		
+	}
+
+.testimonials__photo {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border-radius: 60px;
+		border: 3px solid #8810dd;
+		overflow: hidden;
+	}
+
+.testimonials__customer {
+		text-align: left;
+		font-size: .88rem;
+		font-style: italic;
+	}
+
+.testimonials__testimony {
+		margin-top: -110px;
+		padding-left: 130px;
+	}
+
+.live-chat {
+	position: fixed;
+	left: 100px;
+	bottom: 0;
+	width: 250px;
+	height: 300px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+	-webkit-transform: translateY(90%);
+	        transform: translateY(90%);
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	opacity: 0;
+	z-index: -5;
+}
+
+.live-chat--is-open {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+
+.live-chat--is-visible {
+		opacity: 1;
+		z-index: 5;
+	}
+
+.live-chat__header {
+		width: 100%;
+		height: 30px;
+		-webkit-box-shadow: 0 0 2px rgba(8, 8, 8, 0.42);
+		        box-shadow: 0 0 2px rgba(8, 8, 8, 0.42);
+		cursor: pointer;
+	}
+
+.live-chat__header p {
+			margin: 0;
+			padding: 5px 0;
+		}
+
+.live-chat__header p i {
+				padding-left: 10px;
+				padding-right: 65px;
+				font-size: 1.1rem;
+				color: #8810dd;
+			}
+
+.live-chat__input {
+		background: #ffffff;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 40px;
+		-webkit-box-shadow: 0 0 2px rgba(8, 8, 8, 0.42);
+		        box-shadow: 0 0 2px rgba(8, 8, 8, 0.42);
+		
+	}
+
+.live-chat__input input {
+			margin: 8px;
+			padding: 3px;
+			border-radius: 3px;
+			border: 1px solid rgba(0, 0, 0, 0.29);
+			text-indent: 5px;
+			color: #969696;
+		}
+
+.live-chat__input input:focus {
+			outline: 1px solid rgba(136,16,221, .4);
+		}
+
+.live-chat__input i {
+			font-size: 1.1rem;
+			color: #8810dd;
+			cursor: pointer;
+		}

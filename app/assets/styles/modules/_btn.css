@@ -7,6 +7,9 @@
 	border-radius: 3px;
 	box-shadow: 0 0 2px solid rgba(0, 0, 0, 0.28);
 	border: 1px solid $mainPurple;
+	transition: all .3s ease-out;
+	display: inline-block;
+	
 	
 	&:hover {
 		background: #7501a8;
@@ -14,5 +17,12 @@
 	
 	&--ghost {
 		background: none;
+	}
+	
+	&--footer {
+		margin-left: 40px;
+		padding: 6px;
+		color: #e5e5e5;
+		font-size: 1.3rem;
 	}
 }

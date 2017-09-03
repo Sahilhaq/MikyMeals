@@ -18,4 +18,18 @@
 		background: #dddddd;
 		padding-top: 35px;
 	}
+	
+	&--testimonials {
+		position: relative;
+		border-top: 3px solid $mainPurple;
+			
+		.map {
+			width: 100%;
+			height: 500px;
+		}
+	}
+	
+	&--no-padding {
+		padding: 0;
+	}
 }
